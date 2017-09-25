@@ -9,7 +9,7 @@ public class Rest {
 	
 	@GetMapping("/greeting")
     public String greeting(@RequestParam(value="name", defaultValue="test") String name) {
-        return "hello " + name + name;
+        return "hello " + name + name;	
     }	
 
 }
